@@ -15,4 +15,5 @@ $result=mysql_query("SELECT id,name FROM student");
 //提取数据
 $row=mysql_fetch_row($result);
 print_r($row);
+//;
 ?>
